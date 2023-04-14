@@ -1,6 +1,5 @@
 import Person from '../src/js/person.js';
 
-
 describe(Person, () => {
 
   // SECTION 1: GET AGE OF PERSON ON DIFFERENT PLANETS
@@ -36,5 +35,4 @@ describe(Person, () => {
   });
   // SECTION 1 END
 
-  // SECTION 2: GET YEARS SINCE PAST BDAY
 });
