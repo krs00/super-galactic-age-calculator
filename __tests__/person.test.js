@@ -3,8 +3,15 @@ import Person from '../src/js/person.js';
 
 describe(Person, () => {
 
-  test('should return inputted age of new Person Object', () => {
+  // getEarthAge()
+  test('should return inputted age, aka age in Earth years', () => {
     const Kymani = new Person(22);
-    expect(Kymani.age).toEqual(22);
+    expect(Kymani.getEarthYears).toEqual(22);
+  });
+
+  // getMercuryAge()
+  test('should return inputted age in Mercury years', () => {
+    const Kymani = new Person(22);
+    expect(Kymani.getMercuryYears).toEqual(33);
   });
 });
