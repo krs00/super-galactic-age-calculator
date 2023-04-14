@@ -5,6 +5,6 @@ describe(Person, () => {
 
   test('should return inputted age of new Person Object', () => {
     const Kymani = new Person(22);
-    expect(Kymani.age).toEqual(23);
+    expect(Kymani.age).toEqual(22);
   });
 });
