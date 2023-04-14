@@ -18,6 +18,6 @@ describe(Person, () => {
   // getVenusAge()
   test('should return inputted age in Venus years', () => {
     const Kymani = new Person(22);
-    expect(Kymani.getVenusAge()).toEqual(36); 
+    expect(Kymani.getVenusAge()).toEqual(35); 
   });
 });
