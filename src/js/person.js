@@ -21,7 +21,7 @@ export default class Person {
   }
 
   getMarsAge() {
-    let age = this.age / 0.62;
+    let age = this.age / 1.88;
     return Math.round(age); 
   }
 
