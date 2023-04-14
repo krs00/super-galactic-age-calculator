@@ -1,10 +1,12 @@
 
 export default class Person {
-  constructor(age) {
+  constructor(age, pastAge, futureAge) {
     this.age = age;
-    // this.lastBdayAge = lastBdayAge;
-    // this.futureBdayAge = futureBdayAge;
+    this.pastAge = pastAge;
+    this.futureAge = futureAge; 
   } 
+
+  // SECTION 1: GET AGE OF PERSON ON DIFFERENT PLANETS
 
   getAge() {
     return this.age;
@@ -29,6 +31,9 @@ export default class Person {
     let age = this.age / 11.86;
     return Math.round(age);
   }
+  // SECTION 1 END
+
+  // SECTION 2: GET YEARS SINCE PAST BDAY
   
   
 }

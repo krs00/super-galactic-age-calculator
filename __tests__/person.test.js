@@ -3,6 +3,8 @@ import Person from '../src/js/person.js';
 
 describe(Person, () => {
 
+  // SECTION 1: GET AGE OF PERSON ON DIFFERENT PLANETS
+
   // getEarthAge()
   test('should return inputted age, aka age in Earth years', () => {
     const Kymani = new Person(22);
@@ -32,4 +34,7 @@ describe(Person, () => {
     const Kymani = new Person(22);
     expect(Kymani.getJupiterAge()).toEqual(2);
   });
+  // SECTION 1 END
+
+  // SECTION 2: GET YEARS SINCE PAST BDAY
 });
