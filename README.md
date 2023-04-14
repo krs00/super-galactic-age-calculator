@@ -1,8 +1,8 @@
-# (Application Name)
+# Super Galactic Age Calculator
 
 #### (Brief Description of Application)
 
-#### By (Your Name Here)
+#### By Kymani Stephens
 
 ## Technologies Used
 
