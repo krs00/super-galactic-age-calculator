@@ -26,4 +26,10 @@ describe(Person, () => {
     const Kymani = new Person(22);
     expect(Kymani.getMarsAge()).toEqual(12);
   });
+
+  // getJupiterAge()
+  test('should return inputted age in Jupiter years', () => {
+    const Kymani = new Person(22);
+    expect(Kymani.getVenusAge()).toEqual(2);
+  });
 });
