@@ -12,12 +12,18 @@ describe(Person, () => {
   // getMercuryAge()
   test('should return inputted age in Mercury years', () => {
     const Kymani = new Person(22);
-    expect(Kymani.getMercuryAge()).toEqual(92); 
+    expect(Kymani.getMercuryAge()).toEqual(92);
   });
 
   // getVenusAge()
   test('should return inputted age in Venus years', () => {
     const Kymani = new Person(22);
-    expect(Kymani.getVenusAge()).toEqual(35); 
+    expect(Kymani.getVenusAge()).toEqual(35);
+  });
+
+  // getMarsAge()
+  test('should return inputted age in Mars years', () => {
+    const Kymani = new Person(22);
+    expect(Kymani.getMarsAge()).toEqual(12);
   });
 });
