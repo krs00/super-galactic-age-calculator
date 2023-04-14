@@ -26,7 +26,7 @@ export default class Person {
   }
 
   getJupiterAge() {
-    let age = this.age / 1.88;
+    let age = this.age / 11.86;
     return Math.round(age);
   }
   
