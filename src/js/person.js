@@ -1,6 +1,6 @@
 export default class Person {
   constructor(age) {
-    this.age = age;
+    this.age = age; 
   
   } 
   // GET AGE OF PERSON ON DIFFERENT PLANETS
